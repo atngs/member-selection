@@ -9,6 +9,7 @@
     <?php require_once("data.php") ?>
     <div class="member-wrapper container">
         <h1 class="logo">keyakizaka46</h1>
+        <form action="./confirm.php">
         <div class="keyakizaka-members">
             <?php foreach($members as $member)://data.phpの配列 ?>
              <div class="keyakizaka-member">
@@ -19,6 +20,7 @@
             <?php endforeach ?>
         </div>
         <input type="submit">
+        </form>
     </div>
  </body>
 </html>
