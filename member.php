@@ -2,8 +2,10 @@
  class Member {
     private $name;
     private $profileImage;
+    
 
     private static $count = 0;
+     
 
     //インスタンス生成毎に実行
     public function __construct($name,$profileImage){
@@ -22,5 +24,7 @@
     public static function getCount(){
         return self::$count;
     }
+
+    
  }
 ?>
