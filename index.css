@@ -47,9 +47,3 @@
     background-color: slategrey;/*デバッグ*/
 }
 
-input[type='checkbox'] {
-    margin-top: 20px;
-}
-input[type='submit'] {
-    margin-bottom: 20px;
-}
